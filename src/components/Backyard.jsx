@@ -27,22 +27,25 @@ export default function Backyard() {
   ];
 
   return (
-    <section className="py-16 bg-gray-50">
-      <div className="max-w-6xl mx-auto px-8">
-        <div className="flex justify-start mb-12">
-          <h2 className="text-3xl font-bold">What is Backyard?</h2>
-        </div>
+    <section className="container mx-auto ">
+      <div className="flex justify-start mb-12">
+        <h2 className="text-3xl font-bold">
+          What is Backyard?
+        </h2>
+      </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {features.map((feature) => (
-            <div key={feature.id} className="bg-white rounded-2xl shadow p-6 text-center">
-              <img src={feature.image} alt={feature.title} className="mx-auto mb-4 w-20 h-20" />
-              <h3 className="text-xl font-bold">{feature.title}</h3>
-              <p className="mt-2 font-semibold">{feature.subtitle}</p>
-              <p className="mt-2 text-gray-500">{feature.description}</p>
-            </div>
-          ))}
-        </div>
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        {features.map((feature, index) => (
+          <div key={feature.id} className="bg-white rounded-2xl shadow p-6 text-center">
+            <img src={feature.image} alt={feature.title} className="mx-auto mb-4 w-20 h-20" />
+            <h3 className="flex justify-center text-xl font-bold">
+              <span className="flex justify-center items-center w-8 h-8 rounded-full text-white bg-gray-950 mr-2 text-sm">{index + 1}</span>
+              {feature.title}
+            </h3>
+            <p className="mt-2 font-semibold">{feature.subtitle}</p>
+            <p className="mt-2 text-gray-500">{feature.description}</p>
+          </div>
+        ))}
       </div>
     </section>
   );

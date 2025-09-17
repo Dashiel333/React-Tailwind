@@ -8,7 +8,7 @@ export default function App() {
   return (
     <div className="min-h-screen bg-white text-black">
       <Header />
-      <main className="p-8">
+      <main>
         <Hero />
         <Backyard />
       </main>

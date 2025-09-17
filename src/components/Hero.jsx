@@ -1,7 +1,7 @@
 export default function Hero() {
   return (
-    <section className="w-full bg-white text-black py-20 px-8">
-      <div className="max-w-6xl mx-auto flex flex-row md:flex-row items-center justify-between gap-12">
+    <section className="w-full bg-white text-black">
+      <div className="container mx-auto flex flex-row md:flex-row items-center justify-between gap-12">
         <div className="max-w-xl text-center md:text-left text-black">
           <h1 className="text-4xl md:text-6xl font-bold leading-tight">
             The yield-backed <br />
