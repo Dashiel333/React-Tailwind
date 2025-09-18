@@ -2,7 +2,7 @@ export default function Hero() {
   return (
     <section className="w-full bg-white text-black px-4 py-8 sm:px-6 md:px-12 lg:px-16">
       <div className="container mx-auto flex flex-col md:flex-row items-center justify-between gap-8 md:gap-12 mt-8 md:mt-24">
-        {/* Левая часть */}
+
         <div className="max-w-xl text-center md:text-left text-black">
           <h1 className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-bold leading-snug md:leading-tight">
             The yield-backed <br />
@@ -30,7 +30,6 @@ export default function Hero() {
           </div>
         </div>
 
-        {/* Правая часть (картинка) */}
         <div className="mt-8 md:mt-0">
           <img
             src="/logo-2.svg"

@@ -9,10 +9,9 @@ export default function Header() {
 
   return (
     <header className="w-full container mx-auto py-4 px-6 flex items-center justify-between">
-      {/* Логотип */}
+ 
       <img src={logo} alt="logo" className="w-[132px] h-11 object-contain" />
 
-      {/* Десктопная навигация */}
       <nav className="hidden md:flex gap-6">
         {links.map((link) => (
           <a
@@ -27,7 +26,7 @@ export default function Header() {
         ))}
       </nav>
 
-      {/* Бургер кнопка для мобильных */}
+      {/* Бургер кнопка */}
       <button
         className="md:hidden flex flex-col gap-1 bg-gray"
         onClick={() => setIsOpen(!isOpen)}
@@ -37,7 +36,7 @@ export default function Header() {
         <span className="block w-6 h-0.5 bg-black"></span>
       </button>
 
-      {/* Мобильное меню */}
+      {/* Меню */}
       {isOpen && (
         <div className="absolute top-3 left-0 w-full bg-white flex flex-col items-center py-4 md:hidden shadow-md">
           {links.map((link) => (
@@ -46,7 +45,7 @@ export default function Header() {
               href="#"
               onClick={() => {
                 setActive(link);
-                setIsOpen(false); // закрываем меню при клике
+                setIsOpen(false); 
               }}
               className={`px-3 py-2 rounded-full text-[13px] w-full text-center transition-colors duration-200
                 ${active === link ? "bg-black text-white" : "text-[#aeb0b1] hover:text-black"}`}
