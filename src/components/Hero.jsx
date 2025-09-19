@@ -32,7 +32,7 @@ export default function Hero() {
 
         <div className="mt-8 md:mt-0">
           <img
-            src="/logo-2.svg"
+            src="./logo-2.svg"
             alt="hero logo"
             className="hidden md:block w-40 h-40 sm:w-52 sm:h-52"
           />
