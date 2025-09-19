@@ -1,5 +1,5 @@
 # React + Vite
-https://dashiel333.github.io/Test/
+https://dashiel333.github.io/React-Tailwind/
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
