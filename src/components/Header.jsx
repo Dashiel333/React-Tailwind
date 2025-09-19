@@ -12,7 +12,7 @@ export default function Header() {
  
       <img src={logo} alt="logo" className="w-[132px] h-11 object-contain" />
 
-      <nav className="hidden md:flex gap-6">
+      <nav className="hidden md:flex gap-6 justify-center flex-1">
         {links.map((link) => (
           <a
             key={link}
