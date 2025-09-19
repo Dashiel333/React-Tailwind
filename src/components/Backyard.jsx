@@ -28,7 +28,7 @@ export default function Backyard() {
 
   return (
     <section className="container mx-auto mt-24">
-      <div className="flex justify-start mb-12">
+      <div className="flex justify-start mb-12 w-full px-6 md:px-0">
         <h2 className="text-3xl font-bold">What is Backyard?</h2>
       </div>
 
