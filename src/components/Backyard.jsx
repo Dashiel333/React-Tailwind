@@ -27,8 +27,9 @@ export default function Backyard() {
   ];
 
   return (
-    <section className="container mx-auto mt-24">
-      <div className="flex justify-start mb-12 w-full px-6 md:px-0">
+    // Добавляем горизонтальные паддинги прямо на секцию
+    <section className="container mx-auto px-6 mt-4 md:mt-24">
+      <div className="flex w-full mt-0 mb-6 md:mb-12 justify-center md:justify-start">
         <h2 className="text-3xl font-bold">What is Backyard?</h2>
       </div>
 
