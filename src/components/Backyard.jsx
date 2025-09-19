@@ -6,7 +6,7 @@ export default function Backyard() {
       subtitle: "One-click yield aggregation",
       description:
         "Choose multiple stablecoin strategies, diversify in seconds, and optimize your yield without complexity",
-      image: "/Yield-1.svg",
+      image: "./Yield-1.svg",
     },
     {
       id: 2,
@@ -14,7 +14,7 @@ export default function Backyard() {
       subtitle: "Unlock liquidity with BYD",
       description:
         "Mint BYD against your yield-generating LP tokens to stay liquid and productive at the same time",
-      image: "/Yield-2.svg",
+      image: "./Yield-2.svg",
     },
     {
       id: 3,
@@ -22,7 +22,7 @@ export default function Backyard() {
       subtitle: "Boost protocols, earn more",
       description:
         "Your liquidity empowers DeFi — vote for pools, earn bribes, and maximize your rewards",
-      image: "/Boost.svg",
+      image: "./Boost.svg",
     },
   ];
 
